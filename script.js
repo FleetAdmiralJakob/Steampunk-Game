@@ -38,10 +38,14 @@ window.addEventListener('load', function (){
             this.x = 20;
             this.y = 100;
             this.speedY = 0;
+            this.maxSpeed = 2;
         }
         update(){
-            if (this.game.keys.includes('ArrowUp')) this.speedY = -1;
-            else if (this.game.keys.includes('ArrowDown')) this.speedY = 1;
+            //Moves the Player
+            if (this.game.keys.includes('ArrowUp')) this.speedY = -this.maxSpeed;
+            else if (this.game.keys.includes('ArrowDown')) this.speedY = this.maxSpeed;
+            else this.speedY = 0;
+            
             this.y += this.speedY;
         }
         draw(context){
