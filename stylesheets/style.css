@@ -23,12 +23,12 @@
 #player,
 #angler1,
 #angler2,
-#lucky_fish,
+#lucky-fish,
 #projectile,
 #gears,
-#hive_whale,
+#hive-whale,
 #drone,
-#smoke_explosion,
-#fire_explosion {
-    display: none;
+#smoke-explosion,
+#fire-explosion {
+      display: none;
 }
