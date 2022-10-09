@@ -1,12 +1,14 @@
 # Steampunk Game
 
-### A smart and simple game. **Try it out!**
+## A smart and simple game. **Try it out!**
 
-![](assets/README%20Image.png)
+### This game is based on html, css and javascript so you can run it easily
 
-- ✏️ Based on a game by Frank's Laboratory. **https://www.youtube.com/c/Frankslaboratory**
+![README Image](assets/README%20Image.png)
 
-- 🚀 Owner: FleetAdmiralJakob **https://github.com/FleetAdmiralJakob**
+- ✏️ Based on a game by Frank's Laboratory. **[Youtube | Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)**
+
+- 🚀 Owner: FleetAdmiralJakob **[GitHub | FleetAdmiralJakob](https://github.com/FleetAdmiralJakob)**
 
 - 📜 License: MIT
 
@@ -14,7 +16,7 @@
 
 - 📫 How to reach me: jakob.roessner@outlook.de
 
-- 📖 For more questions: We have an awesome wiki which you can find here: https://github.com/FleetAdmiralJakob/Steampunk-Game/wiki
+- 📖 For more questions: We have an awesome wiki which you can find here: **[GitHub | Steampunk Game | Wiki](https://github.com/FleetAdmiralJakob/Steampunk-Game/wiki)**
 
 ## Contributors ✨
 
@@ -23,7 +25,7 @@ Thanks goes to these wonderful people who have improved the code and documentati
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/FleetAdmiralJakob"><img src="https://avatars.githubusercontent.com/u/77451351?s=400&u=b59205206eba2ae0746903b0abb0f39fa56ccf2c&v=4" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="" title="Code">💻</a><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=gewarren" title="Documentation">📖</a></td>
+      <td><a href="https://github.com/FleetAdmiralJakob"><img src="https://avatars.githubusercontent.com/u/77451351?s=400&u=b59205206eba2ae0746903b0abb0f39fa56ccf2c&v=4" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="" title="Code">💻</a><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=gewarren" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
