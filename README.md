@@ -2,7 +2,7 @@
 
 ### A smart and simple game. **Try it out!**
 
-![](assets/README Image.png)
+![](assets/README%20Image.png)
 
 - ✏️ Based on a game by Frank's Laboratory. **https://www.youtube.com/c/Frankslaboratory**
 
