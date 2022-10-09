@@ -1,3 +1,4 @@
+![README Image](assets/logo.png)
 # Steampunk Game
 
 ## A smart and simple game. **Try it out!**
@@ -29,7 +30,6 @@ Thanks goes to these wonderful people who have improved the code and documentati
     </tr>
   </tbody>
   <tfoot>
-
   </tfoot>
 </table>
 
