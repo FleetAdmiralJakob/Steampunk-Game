@@ -2,7 +2,7 @@
 
 ## A smart and simple game. **Try it out!**
 
-### This game is based on html, css and javascript, so you can run it easily
+### This game is based on HTML, CSS and JavaScript, so you can run it easily
 
 ![README Image](assets/README%20Image.png)
 
@@ -25,7 +25,7 @@ Thanks goes to these wonderful people who have improved the code and documentati
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/FleetAdmiralJakob"><img src="https://avatars.githubusercontent.com/u/77451351?s=400&u=b59205206eba2ae0746903b0abb0f39fa56ccf2c&v=4" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="" title="Code">💻</a><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=gewarren" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/FleetAdmiralJakob"><img src="https://linkshortner.net/SHZPM" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="https://linkshortner.net/BqtCK" title="Code">💻</a><a href="" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
