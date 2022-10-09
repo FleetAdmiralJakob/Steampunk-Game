@@ -2,6 +2,8 @@
 
 ### A smart and simple game. **Try it out!**
 
+![](assets/README Image.png)
+
 - ✏️ Based on a game by Frank's Laboratory. **https://www.youtube.com/c/Frankslaboratory**
 
 - 🚀 Owner: FleetAdmiralJakob **https://github.com/FleetAdmiralJakob**
@@ -11,6 +13,8 @@
 - 💞️ At the moment I'm also looking for someone who wants to develop this game with me.
 
 - 📫 How to reach me: jakob.roessner@outlook.de
+
+- 📖 For more questions: We have an awesome wiki which you can find here: https://github.com/FleetAdmiralJakob/Steampunk-Game/wiki
 
 ## Contributors ✨
 
