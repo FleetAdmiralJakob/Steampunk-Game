@@ -2,11 +2,11 @@
 
 ## A smart and simple game. **Try it out!**
 
-### This game is based on html, css and javascript so you can run it easily
+### This game is based on html, css and javascript, so you can run it easily
 
 ![README Image](assets/README%20Image.png)
 
-- ✏️ Based on a game by Frank's Laboratory. **[Youtube | Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)**
+- ✏️ Based on a game by Frank's Laboratory. **[YouTube | Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)**
 
 - 🚀 Owner: FleetAdmiralJakob **[GitHub | FleetAdmiralJakob](https://github.com/FleetAdmiralJakob)**
 
