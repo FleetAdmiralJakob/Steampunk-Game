@@ -1,0 +1,19 @@
+Content Changes:
+- Add Bulb Whale
+- Add Moon Fish
+- Add Sounds
+- Add Shield
+- Animate projectiles
+
+Bug fixes:
+- Dust and fire effects (to fast)
+- Spawning to many particles or Drones sometimes
+- Fix the music (the music is not immediately playing if I start the game
+
+
+
+HUGE CHANGES: (Not active in development, but nice)
+- A start screen
+- You can pause the game
+- Highscore
+- Different player characters
