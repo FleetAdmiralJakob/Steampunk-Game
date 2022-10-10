@@ -5,6 +5,15 @@
 
 ### This game is based on HTML, CSS and JavaScript, so you can run it easily
 
+<p align="center">
+  <a href="https://github.com/responsively-org/responsively-app/issues" target="_blank">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome">
+  </a>
+    <a href="https://github.com/FleetAdmiralJakob/Steampunk-Game/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT">
+  </a>
+</p>
+
 ![README Image](assets/README%20Image.png)
 
 - ✏️ Based on a game by Frank's Laboratory. **[YouTube | Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)**
