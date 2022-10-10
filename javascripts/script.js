@@ -465,21 +465,20 @@ window.addEventListener('load', function () {
 
       // Music Stuff
       this.battle_music = new Audio('assets/music/battle.mp3')
-      this.battle_music.loop = true;
+      this.battle_music.loop = true
       this.battle_music.volume = 0.1
-      this.musicIsPlaying = false;
+      this.musicIsPlaying = false
     }
 
     update (deltaTime) {
       // Play and Pause music
       if (!this.gameOver && !this.musicIsPlaying) {
-        this.battle_music.play();
-        this.musicIsPlaying = true;
+        this.battle_music.play()
+        this.musicIsPlaying = true
       }
-      
-      if (this.gameOver) this.battle_music.pause();
 
-      
+      if (this.gameOver) this.battle_music.pause()
+
       if (!this.gameOver) this.gameTime += deltaTime
       if (this.gameTime > this.timeLimit) this.gameOver = true
 
