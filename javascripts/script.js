@@ -216,7 +216,7 @@ window.addEventListener('load', function () {
     constructor (game) {
       super(game)
       this.width = 228
-      this.height = 196
+      this.height = 169
       this.y = Math.random() * (this.game.height * 0.95 - this.height)
       this.image = document.getElementById('angler1')
       this.frameY = Math.floor(Math.random() * 3)
@@ -462,9 +462,24 @@ window.addEventListener('load', function () {
 
       this.speed = 1
       this.debug = false
+
+      // Music Stuff
+      this.battle_music = new Audio('assets/music/battle.mp3')
+      this.battle_music.loop = true;
+      this.battle_music.volume = 0.1
+      this.musicIsPlaying = false;
     }
 
     update (deltaTime) {
+      // Play and Pause music
+      if (!this.gameOver && !this.musicIsPlaying) {
+        this.battle_music.play();
+        this.musicIsPlaying = true;
+      }
+      
+      if (this.gameOver) this.battle_music.pause();
+
+      
       if (!this.gameOver) this.gameTime += deltaTime
       if (this.gameTime > this.timeLimit) this.gameOver = true
 
