@@ -4,11 +4,12 @@ Content Changes:
 - Added Sounds ✅
 - Added Shield ✅
 - Animate projectiles
+- Make that under certain conditions the shield is not active
 
 Bug fixes:
 - Dust and fire effects (to fast)
 - Spawning to many particles or Drones sometimes
-- Fix the music (the music is not immediately playing if you start the game
+- Fix the music (the music is not immediately playing if you start the game)
 
 
 
