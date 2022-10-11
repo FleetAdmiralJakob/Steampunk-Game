@@ -98,7 +98,7 @@ window.addEventListener('load', function () {
       this.width = 120
       this.height = 190
       this.x = 20
-      this.y = 100
+      this.y = 130
       this.frameX = 0
       this.frameY = 0
       this.maxFrame = 37
@@ -272,8 +272,7 @@ window.addEventListener('load', function () {
       super(game)
       this.width = 115
       this.height = 95
-      this.x = x
-      this.y = y
+      this.y = Math.random() * (this.game.height * 0.95 - this.height);
       this.image = document.getElementById('drone')
       this.frameY = Math.floor(Math.random() * 2)
       this.lives = 3
@@ -506,7 +505,7 @@ window.addEventListener('load', function () {
           enemy.markedForDeletion = true
           this.addExplosion(enemy)
 
-          for (let i = 0; i < enemy.score; i++) {
+          for (let i = 0; i < 4; i++) {
             this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
           }
 
@@ -521,7 +520,7 @@ window.addEventListener('load', function () {
             this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
 
             if (enemy.lives <= 0) {
-              for (let i = 0; i < enemy.score; i++) {
+              for (let i = 0; i < 4; i++) {
                 this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
               }
 
