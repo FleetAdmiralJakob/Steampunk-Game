@@ -342,7 +342,7 @@ window.addEventListener('load', function () {
   }
 
   class Drone extends Enemy {
-    constructor (game, x, y) {
+    constructor (game) {
       super(game)
       this.width = 115
       this.height = 95
