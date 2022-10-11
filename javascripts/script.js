@@ -26,7 +26,35 @@ window.addEventListener('load', function () {
       })
     }
   }
-
+  class SoundController {
+    constructor(){
+      this.powerUpSound = document.getElementById('powerup');
+      this.powerDownSound = document.getElementById('powerdown');
+      this.explosionSound = document.getElementById('explosion');
+      this.shotSound = document.getElementById('shot');
+      this.hitSound = document.getElementById('hit');
+    }
+    powerUp(){
+      this.powerUpSound.currentTime = 0;
+      this.powerUpSound.play();
+    }
+    powerDown(){
+      this.powerDownSound.currentTime = 0;
+      this.powerDownSound.play();
+    }
+    explosion(){
+      this.explosionSound.currentTime = 0;
+      this.explosionSound.play();
+    }
+    shot(){
+      this.shotSound.currentTime = 0;
+      this.shotSound.play();
+    }
+    hit(){
+      this.hitSound.currentTime = 0;
+      this.hitSound.play();
+    }
+  }
   class Projectile {
     constructor (game, x, y) {
       this.game = game
@@ -141,6 +169,7 @@ window.addEventListener('load', function () {
           this.powerUpTimer = 0
           this.powerUp = false
           this.frameY = 0
+          this.game.sound.powerDown();
         } else {
           this.powerUpTimer += deltaTime
           this.frameY = 1
@@ -164,6 +193,7 @@ window.addEventListener('load', function () {
         this.projectiles.push(new Projectile(this.game, this.x + 80, this.y + 30))
         this.game.ammo--
       }
+      this.game.sound.shot();
       if (this.powerUp) this.shootBottom()
     }
 
@@ -179,6 +209,7 @@ window.addEventListener('load', function () {
       this.powerUpTimer = 0
       this.powerUp = true
       if (this.game.ammo < this.game.maxAmmo) this.game.ammo = this.game.maxAmmo
+      this.game.sound.powerUp();
     }
   }
 
@@ -438,6 +469,7 @@ window.addEventListener('load', function () {
       this.player = new Player(this)
       this.input = new InputHandler(this)
       this.ui = new UI(this)
+      this.sound = new SoundController();
 
       this.keys = []
       this.enemies = []
@@ -505,6 +537,7 @@ window.addEventListener('load', function () {
         if (this.checkCollision(this.player, enemy)) {
           enemy.markedForDeletion = true
           this.addExplosion(enemy)
+          this.sound.hit()
 
           for (let i = 0; i < enemy.score; i++) {
             this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
@@ -527,6 +560,7 @@ window.addEventListener('load', function () {
 
               enemy.markedForDeletion = true
               this.addExplosion(enemy)
+              this.sound.explosion()
 
               if (enemy.type === 'hive-whale') {
                 for (let i = 0; i < 5; i++) {
