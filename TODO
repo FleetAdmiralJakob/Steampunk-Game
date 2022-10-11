@@ -5,11 +5,13 @@ Content Changes:
 - Added Shield ✅
 - Animate projectiles
 - Make that under certain conditions the shield is not active
+- Add a description that the player know what he have to do
 
 Bug fixes:
 - Dust and fire effects (to fast)
 - Spawning to many particles or Drones sometimes
 - Fix the music (the music is not immediately playing if you start the game)
+- Fix the spawning position of the drones (the drones don't spawn every time at the right place)
 
 
 
