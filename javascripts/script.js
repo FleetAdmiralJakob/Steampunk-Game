@@ -33,6 +33,7 @@ window.addEventListener('load', function () {
       this.explosionSound = document.getElementById('explosion')
       this.shotSound = document.getElementById('shot')
       this.hitSound = document.getElementById('hit')
+      this.shieldSound = document.getElementById('shield-sound');
     }
 
     powerUp () {
@@ -59,7 +60,44 @@ window.addEventListener('load', function () {
       this.hitSound.currentTime = 0
       this.hitSound.play()
     }
+    shield(){
+      this.shieldSound.currentTime = 0;
+      this.shieldSound.play();
+    }
   }
+
+  class Shield {
+    constructor(game){
+      this.game = game;
+      this.width = this.game.player.width;
+      this.height = this.game.player.height;
+      this.frameX = 0;
+      this.maxFrame = 24;
+      this.image = document.getElementById('shield');
+      this.fps = 60;
+      this.timer = 0;
+      this.interval = 1000/this.fps;
+    }
+    update(deltaTime){
+      if (this.frameX <= this.maxFrame) {
+        if (this.timer > this.interval){
+          this.frameX++;
+          this.timer = 0;
+        } else {
+          this.timer += deltaTime;
+        }
+
+      }
+    }
+    draw(context){
+      context.drawImage(this.image, this.frameX * this.width, 0, this.width, this.height, this.game.player.x, this.game.player.y, this.width, this.height);
+    }
+    reset(){
+      this.frameX = 0;
+      this.game.sound.shield();
+    }
+  }
+  
   class Projectile {
     constructor (game, x, y) {
       this.game = game
@@ -474,6 +512,7 @@ window.addEventListener('load', function () {
       this.input = new InputHandler(this)
       this.ui = new UI(this)
       this.sound = new SoundController()
+      this.shield = new Shield(this);
 
       this.keys = []
       this.enemies = []
@@ -529,6 +568,7 @@ window.addEventListener('load', function () {
         this.ammoTimer += deltaTime
       }
 
+      this.shield.update(deltaTime)
       this.particles.forEach(particle => particle.update())
       this.particles = this.particles.filter(particle => !particle.markedForDeletion)
 
@@ -542,6 +582,7 @@ window.addEventListener('load', function () {
           enemy.markedForDeletion = true
           this.addExplosion(enemy)
           this.sound.hit()
+          this.shield.reset()
 
           for (let i = 0; i < 4; i++) {
             this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
@@ -591,6 +632,7 @@ window.addEventListener('load', function () {
       this.background.draw(context)
       this.ui.draw(context)
       this.player.draw(context)
+      this.shield.draw(context);
       this.particles.forEach(particle => particle.draw(context))
       this.enemies.forEach(enemy => {
         enemy.draw(context)
