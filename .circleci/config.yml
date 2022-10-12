@@ -1,7 +1,1 @@
-version: 2.1
-
-workflows:
-  build_and_test:
-    jobs:
-      - build
-      - test
+// Used in future projects
