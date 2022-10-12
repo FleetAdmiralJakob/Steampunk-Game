@@ -573,12 +573,13 @@ window.addEventListener('load', function () {
       // Music Stuff
       this.battle_music = new Audio('assets/music/battle.mp3')
       this.battle_music.loop = true
-      this.battle_music.volume = 0.1
+      this.battle_music.volume = 1
       this.musicIsPlaying = false
     }
 
     update (deltaTime) {
       // Play and Pause music
+      this.musicIsPlaying = false
       if (!this.gameOver && !this.musicIsPlaying) {
         this.battle_music.play()
         this.musicIsPlaying = true
@@ -639,8 +640,8 @@ window.addEventListener('load', function () {
               this.addExplosion(enemy)
               this.sound.explosion()
 
-              if (enemy.type === 'moon') this.player.enterPowerUp();
-              
+              if (enemy.type === 'moon') this.player.enterPowerUp()
+
               if (enemy.type === 'hive-whale') {
                 for (let i = 0; i < 5; i++) {
                   this.enemies.push(new Drone(this, enemy.x + Math.random() * enemy.width, enemy.y + Math.random() * enemy.height * 0.5))

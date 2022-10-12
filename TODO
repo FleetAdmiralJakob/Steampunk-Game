@@ -7,17 +7,19 @@ Content Changes:
 - Animate projectiles
 - Make that under certain conditions the shield is not active
 - Add a description that the player know what he have to do
+- Add special sounds (if you win and lose)
 
 Bug fixes:
 - Dust and fire effects (to fast)
 - Spawning to many particles or Drones sometimes
-- Fix the music (the music is not immediately playing if you start the game)
+- Fixed the music (the music is not immediately playing if you start the game) ✅
 - Fix the spawning position of the drones (the drones don't spawn every time at the right place)
 
 
 
 HUGE CHANGES: (Not active in development, but nice)
 - A start screen
+- You can change the volumes
 - You can pause the game
 - Highscore (connected to a account(very simple))
 - Different player characters
@@ -27,4 +29,4 @@ HUGE CHANGES: (Not active in development, but nice)
 
 MORE THAN HUGE CHANGES: (In a very far future)
 - Mobile support
-- Coin system and shop
+- Coin system and shop (connected to a account(very simple))
