@@ -5,6 +5,8 @@
 
 ### This game is based on HTML, CSS and JavaScript, so you can run it easily
 
+### Here you can test the game: [Steampunk Game](http://steampunk-game.me/Steampunk-Game/)
+
 <p align="center">
   <a href="https://github.com/responsively-org/responsively-app/issues" target="_blank">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome">
