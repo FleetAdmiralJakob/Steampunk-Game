@@ -324,7 +324,7 @@ window.addEventListener('load', function () {
       this.image = document.getElementById('lucky-fish')
       this.frameY = Math.floor(Math.random() * 2)
       this.lives = 5
-      this.score = 10
+      this.score = 15
       this.type = 'lucky-fish'
     }
   }

@@ -15,6 +15,7 @@ Bug fixes:
 - Spawning to many particles or Drones sometimes
 - Fixed the music (the music is not immediately playing if you start the game) ✅
 - Fix the spawning position of the drones (the drones don't spawn every time at the right place)
+- If you're  in power op mode your ammo resets if you shoot.
 
 
 
@@ -25,6 +26,7 @@ HUGE CHANGES: (Not active in development, but nice)
 - Highscore (connected to a account(very simple))
 - Different player characters
 - Support different languages
+- Different levels
 
 
 
