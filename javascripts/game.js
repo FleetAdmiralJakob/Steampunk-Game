@@ -25,13 +25,13 @@ window.addEventListener('load', function () {
         }
       })
       window.addEventListener('touchstart', e => {
-        
+
       })
       window.addEventListener('touchmove', e => {
-        
+
       })
       window.addEventListener('touchend', e => {
-        
+
       })
     }
   }
