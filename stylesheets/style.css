@@ -46,3 +46,23 @@
   display: none;
 
 }
+
+.wiki-button {
+  position: absolute;
+  top: 70%;
+  background: #4d79bc;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: 'Bangers', cursive;
+  cursor: pointer;
+  left: 50%;
+  -ms-transform: translate(-50%, -1%);
+  transform: translate(-50%, -50%)
+}
+
+.wiki-button:hover {
+  background: #081a35;
+  color: white;
+}
