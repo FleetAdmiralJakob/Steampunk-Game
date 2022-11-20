@@ -80,3 +80,9 @@
   background: #081a35;
   color: white;
 }
+
+.button img {
+  width: 39px;
+  height: 21px;
+  margin-left: 1px;
+}
