@@ -39,7 +39,7 @@ Thanks goes to these wonderful people who have improved the code and documentati
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/FleetAdmiralJakob"><img src="https://linkshortner.net/SHZPM" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="https://linkshortner.net/BqtCK" title="Code">💻</a><a href="" title="Documentation">📖</a><a href="" title="Project Management">📆</a></td>
+      <td align="center"><a href="https://github.com/FleetAdmiralJakob"><img src="https://bit.ly/3okSogD" width="100px;" alt="Jakob Felix Eugen Rössner"/><br /><sub><b>Jakob Felix Eugen Rössner</b></sub></a><br /><a href="" title="Content">🖋</a><a href="https://linkshortner.net/BqtCK" title="Code">💻</a><a href="" title="Documentation">📖</a><a href="" title="Project Management">📆</a></td>
     </tr>
   </tbody>
   <tfoot>
